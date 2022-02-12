@@ -7,7 +7,7 @@ let result = document.getElementById("result");
 function plus(n1, n2) {
     return n1 + n2;
 }
-let names = ["Alisson ", "Rangel ", "Alves ", 89, 130, " Escórcio"];
+let names = ["Aroldo ", "Alencar ", "Cardoso ", 89, 130];
 names.forEach(function (name) {
     if (typeof name === "string") {
         result.innerHTML += name.toUpperCase();

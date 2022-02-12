@@ -12,7 +12,7 @@ function plus(n1: number, n2: number): number {
 //   res.innerHTML = plus(+n1.value, +n2.value).toString();
 // });
 
-let names = ["Alisson ","Rangel ","Alves ", 89,130, " Escórcio"]
+let names = ["Aroldo ","Alencar ","Cardoso ", 89,130]
 
 // names.forEach(function (name){
 //   console.log(name.toUpperCase());
