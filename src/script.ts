@@ -1,8 +1,8 @@
 let n1 = document.getElementById("n1") as HTMLInputElement; // types assertions
 let n2 = document.getElementById("n2") as HTMLInputElement;
-let button = document.getElementById("btn");
-let res = document.getElementById("div");
-let result = document.getElementById("result");
+let button = document.getElementById("btn") as HTMLButtonElement;
+let res = document.getElementById("div") as HTMLDivElement;
+let result = document.getElementById("result") as HTMLDivElement;
 
 function plus(n1: number, n2: number): number {
   return n1 + n2;
@@ -12,7 +12,7 @@ function plus(n1: number, n2: number): number {
 //   res.innerHTML = plus(+n1.value, +n2.value).toString();
 // });
 
-let names = ["Alisson","Rangel","Alves", 89,130]
+let names = ["Alisson ","Rangel ","Alves ", 89,130, " Escórcio"]
 
 // names.forEach(function (name){
 //   console.log(name.toUpperCase());

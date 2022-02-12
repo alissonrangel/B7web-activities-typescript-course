@@ -9,7 +9,7 @@ function plus(n1, n2) {
 // button.addEventListener("click", function (){
 //   res.innerHTML = plus(+n1.value, +n2.value).toString();
 // });
-var names = ["Alisson", "Rangel", "Alves", 89, 130];
+var names = ["Alisson ", "Rangel ", "Alves ", 89, 130, " Escórcio"];
 // names.forEach(function (name){
 //   console.log(name.toUpperCase());
 // })
